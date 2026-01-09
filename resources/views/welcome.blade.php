@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIS7AR | Estructuras Metálicas</title>
 
+    <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@300;400;700&display=swap"
@@ -13,11 +15,8 @@
 
     <style>
         :root {
-            /* Paleta basada en Logo Industrial */
             --primary-color: #002D5A;
-            /* Azul Marino Industrial */
             --accent-color: #333;
-            /* Naranja de Seguridad / Herrería */
             --bg-dark: #121212;
             --text-light: #F8F9FA;
         }
@@ -38,7 +37,6 @@
             letter-spacing: 1px;
         }
 
-        /* HEADER & LOGO */
         .navbar {
             background-color: var(--primary-color);
             border-bottom: 3px solid var(--accent-color);
@@ -437,7 +435,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 border-0 shadow-sm team-card text-center p-3">
                         <div class="team-img-wrapper mb-3">
-                            <img src="{{ asset('img/leo1.jpg') }}" class="img-fluid rounded shadow"
+                            <img src="{{ asset('img/leo.jpeg') }}" class="img-fluid rounded shadow"
                                 alt="Leonela Domínguez">
                         </div>
                         <h5 class="fw-bold mb-1">Leonela Domínguez</h5>
@@ -450,7 +448,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="card h-100 border-0 shadow-sm team-card text-center p-3">
                         <div class="team-img-wrapper mb-3">
-                            <img src="{{ asset('img/ran.png') }}" class="img-fluid rounded shadow"
+                            <img src="{{ asset('img/ran.jpg') }}" class="img-fluid rounded shadow"
                                 alt="Ranyerís Domínguez">
                         </div>
                         <h5 class="fw-bold mb-1">Ranyerís Domínguez</h5>
