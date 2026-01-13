@@ -10,7 +10,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@300;400;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@300;400;700&display=swap"
         rel="stylesheet">
 
     <style>
@@ -160,8 +161,11 @@
                     <li class="nav-item"><a class="nav-link" href="#quienes-somos">¿Quiénes Somos?</a></li>
                     <li class="nav-item"><a class="nav-link" href="#equipo">Gobernanza</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
-                    <li class="nav-item"><a class="nav-link btn-vistar ms-lg-4"
-                            href="mailto:ventas@vis7ar.com">Solicitar Presupuesto</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-vistar ms-lg-4" href="https://wa.me/18292483000" target="_blank">
+                            Solicitar Presupuesto
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -206,10 +210,15 @@
                 </div>
 
                 <p class="proposito-text">
-                    "Transformar el acero en soluciones de ingeniería sólidas y rentables, garantizando la excelencia
-                    técnica en cada montaje y promoviendo la estabilidad financiera de nuestros socios y equipo, bajo
-                    una cultura de transparencia donde cada obra respalda la calidad, la confianza y el compromiso
-                    asumido."
+                    "Transformamos el acero en estructuras sólidas y seguras, pensadas para durar y responder a las
+                    necesidades reales de cada proyecto.
+                    <br>
+                    En VIS7AR trabajamos con criterio técnico, ejecución precisa y compromiso total, cuidando cada
+                    detalle del diseño, la fabricación y el montaje para garantizar obras confiables y bien hechas.
+                    <br>
+                    Operamos bajo una cultura de transparencia, responsabilidad y excelencia, donde cada estructura
+                    respalda lo que prometemos:
+                    calidad que se mantiene, confianza que se gana y resultados que perduran.."
                 </p>
 
                 <div class="row mt-5">
@@ -251,7 +260,7 @@
             padding: 100px 0;
             /* IMAGEN DE FONDO DE ESTRUCTURA */
             /* background: url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1600') no-repeat center center; */
-            background-color:  rgba(0, 45, 90, 0.7);
+            background-color: rgba(0, 45, 90, 0.7);
             background-size: cover;
             background-attachment: fixed;
         }
@@ -299,52 +308,40 @@
             color: #F39C12;
         }
     </style>
-    <section id="quienes-somos" class="about-vistar-section">
+    <section id="quienes-somos" class="py-5 bg-light">
         <div class="container">
-            <div class="glass-container">
-                <div class="text-center mb-5">
-                    <span class="site-tagline">Trayectoria y Rigor</span>
-                    <h2 class="display-4 fw-bold text-white">¿Quiénes <span>Somos?</span></h2>
-                    <p class="lead mt-3 text-light">Somos una estructura familiar donde la pasión por el metal se une a
-                        la estrategia financiera.</p>
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Nuestra <span style="color: var(--accent-color);">Identidad</span></h2>
+                <p class="lead">Somos el resultado de un legado familiar de trabajo honesto y dedicación.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="about-card">
+                        <h3>Misión</h3>
+                        <p>Brindar soluciones estructurales eficientes, seguras y personalizadas, contribuyendo al
+                            desarrollo industrial, comercial y residencial con excelencia técnica y humana.</p>
+                    </div>
                 </div>
-
-                <div class="row g-4">
-                    <div class="col-lg-4">
-                        <div class="about-card">
-                            <div class="about-icon"><i class="fas fa-bullseye"></i></div>
-                            <h3>Misión</h3>
-                            <p>Fabricar soluciones metálicas de alta precisión técnica bajo un modelo de rentabilidad
-                                estricto, asegurando que cada proyecto sea sostenible y supere los estándares de
-                                seguridad industrial.</p>
-                        </div>
+                <div class="col-lg-4">
+                    <div class="about-card">
+                        <h3>Visión</h3>
+                        <p>Consolidarnos como una empresa reconocida por la excelencia en estructuras metálicas en la
+                            República Dominicana, creciendo sobre la base de innovación, calidad y confianza.</p>
                     </div>
-
-                    <div class="col-lg-4">
-                        <div class="about-card">
-                            <div class="about-icon"><i class="fas fa-eye"></i></div>
-                            <h3>Visión</h3>
-                            <p>Ser la empresa de herrería industrial líder en confianza, reconocida por estabilizar
-                                procesos antes de expandirnos y por entregar obras que se convierten en nuestra mejor
-                                carta de ventas.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="about-card">
-                            <div class="about-icon"><i class="fas fa-handshake"></i></div>
-                            <h3>Valores</h3>
-                            <ul class="list-unstyled">
-                                <li><strong>Excelencia Técnica:</strong> Trabajamos el acero con precisión, experiencia
-                                    y responsabilidad, como propietarios del resultado final.</li>
-                                <li><strong>Integridad Comercial:</strong>Cada proyecto se ejecuta con acuerdos claros y
-                                    condiciones justas que garantizan la sostenibilidad de la obra y la empresa.</li>
-                                <li><strong>Compromiso con la Calidad:</strong> Cada estructura refleja nuestro estándar
-                                    de durabilidad, seguridad y cumplimiento técnico.</li>
-                                <li><strong>Seguridad y Respeto:</strong>Protegemos a nuestro equipo, nuestros clientes
-                                    y cada obra, priorizando prácticas seguras y un ambiente de respeto.</li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-card">
+                        <h3>Valores</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-accent"></i> <strong>Compromiso:</strong> Asumimos cada
+                                proyecto como propio.</li>
+                            <li><i class="fas fa-check text-accent"></i> <strong>Calidad:</strong> Estructuras sólidas
+                                que perduran.</li>
+                            <li><i class="fas fa-check text-accent"></i> <strong>Puntualidad:</strong> Respetamos los
+                                tiempos acordados.</li>
+                            <li><i class="fas fa-check text-accent"></i> <strong>Seguridad:</strong> Priorizamos la
+                                integridad en cada etapa.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -431,56 +428,64 @@
                 </p>
             </div>
 
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3">
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4 col-lg-2">
                     <div class="card h-100 border-0 shadow-sm team-card text-center p-3">
                         <div class="team-img-wrapper mb-3">
                             <img src="{{ asset('img/leo.jpeg') }}" class="img-fluid rounded shadow"
                                 alt="Leonela Domínguez">
                         </div>
-                        <h5 class="fw-bold mb-1">Leonela Domínguez</h5>
-                        <p class="text-accent fw-bold small text-uppercase mb-2">Gerencia General & Ventas</p>
-                        <p class="small text-muted">Líder estratégica enfocada en relaciones clave y visión comercial.
-                        </p>
+                        <h6 class="fw-bold mb-1">Leonela Domínguez</h6>
+                        <p class="text-accent fw-bold x-small text-uppercase mb-2" style="font-size: 0.7rem;">Gerencia
+                            General</p>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-4 col-lg-2">
                     <div class="card h-100 border-0 shadow-sm team-card text-center p-3">
                         <div class="team-img-wrapper mb-3">
                             <img src="{{ asset('img/ran.jpg') }}" class="img-fluid rounded shadow"
                                 alt="Ranyerís Domínguez">
                         </div>
-                        <h5 class="fw-bold mb-1">Ranyerís Domínguez</h5>
-                        <p class="text-accent fw-bold small text-uppercase mb-2">Jefe de Producción</p>
-                        <p class="small text-muted">El "dueño del metal". Garantiza que cada soldadura cumpla con el
-                            estándar técnico.</p>
+                        <h6 class="fw-bold mb-1">Ranyerís Domínguez</h6>
+                        <p class="text-accent fw-bold x-small text-uppercase mb-2" style="font-size: 0.7rem;">Jefe de
+                            Producción</p>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-4 col-lg-2">
                     <div class="card h-100 border-0 shadow-sm team-card text-center p-3">
                         <div class="team-img-wrapper mb-3">
-                            <img src="{{ asset('img/ger.png') }}"
-                                class="img-fluid rounded shadow team-img"alt="Gersón Domínguez">
+                            <img src="{{ asset('img/leo.jpg') }}" class="img-fluid rounded shadow"
+                                alt="Viterbo Domínguez">
                         </div>
-                        <h5 class="fw-bold mb-1">Gersón Domínguez</h5>
-                        <p class="text-accent fw-bold small text-uppercase mb-2">Coordinador de Proyectos</p>
-                        <p class="small text-muted">Amortiguador entre ventas y operación. Controla alcances y
-                            cronogramas en obra.</p>
+                        <h6 class="fw-bold mb-1">Leonel Domínguez</h6>
+                        <p class="text-accent fw-bold x-small text-uppercase mb-2" style="font-size: 0.7rem;">Soldador
+                            Estructural Senior</p>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-3">
+                <div class="col-md-4 col-lg-2">
+                    <div class="card h-100 border-0 shadow-sm team-card text-center p-3">
+                        <div class="team-img-wrapper mb-3">
+                            <img src="{{ asset('img/ger.png') }}" class="img-fluid rounded shadow"
+                                alt="Gersón Domínguez">
+                        </div>
+                        <h6 class="fw-bold mb-1">Gersón Domínguez</h6>
+                        <p class="text-accent fw-bold x-small text-uppercase mb-2" style="font-size: 0.7rem;">Coord.
+                            Proyectos</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-2">
                     <div class="card h-100 border-0 shadow-sm team-card text-center p-3">
                         <div class="team-img-wrapper mb-3">
                             <img src="{{ asset('img/mil.jpg') }}" class="img-fluid rounded shadow"
                                 alt="Milca Domínguez">
                         </div>
-                        <h5 class="fw-bold mb-1">Milca Domínguez</h5>
-                        <p class="text-accent fw-bold small text-uppercase mb-2">Adm. & Finanzas</p>
-                        <p class="small text-muted">Control total de facturación y pagos. Asegura la salud financiera
-                            de la empresa.</p>
+                        <h6 class="fw-bold mb-1">Milca Domínguez</h6>
+                        <p class="text-accent fw-bold x-small text-uppercase mb-2" style="font-size: 0.7rem;">Adm. &
+                            Finanzas</p>
                     </div>
                 </div>
             </div>
@@ -531,7 +536,9 @@
                 <h2 class="display-4 fw-bold text-white">Nuestras <span>Obras</span></h2>
                 <div class="footer-divider mb-3" style="background: var(--accent); width: 80px; margin: 20px auto;">
                 </div>
-                <p class="text-light opacity-75"> Nuestra mejor publicidad es un trabajo bien hecho. En cada estructura y cada soldadura, garantizamos una calidad técnica superior que convierte a nuestros clientes en nuestra mejor referencia. Nuestra meta: que cada proyecto nos abra la puerta al siguiente.</p>
+                <p class="text-light opacity-75"> Nuestra mejor publicidad es un trabajo bien hecho. En cada estructura
+                    y cada soldadura, garantizamos una calidad técnica superior que convierte a nuestros clientes en
+                    nuestra mejor referencia. Nuestra meta: que cada proyecto nos abra la puerta al siguiente.</p>
             </div>
 
             <div class="row g-4">
@@ -563,8 +570,7 @@
 
                 <div class="col-md-6 col-lg-4">
                     <div class="gallery-item shadow">
-                        <img src="{{asset('img/mezzanine.png')}}"
-                            alt="Herrería de Seguridad" class="img-fluid">
+                        <img src="{{ asset('img/mezzanine.png') }}" alt="Herrería de Seguridad" class="img-fluid">
                         <div class="gallery-overlay">
                             <div class="gallery-content">
                                 <h5>Mezzanines y Pisos</h5>
@@ -576,8 +582,8 @@
 
                 <div class="col-md-6 col-lg-4">
                     <div class="gallery-item shadow">
-                        <img src="{{asset('img/CubiertasyTechos.jpg')}}"
-                            alt="Techados Metálicos" class="img-fluid">
+                        <img src="{{ asset('img/CubiertasyTechos.jpg') }}" alt="Techados Metálicos"
+                            class="img-fluid">
                         <div class="gallery-overlay">
                             <div class="gallery-content">
                                 <h5>Cubiertas y Techos</h5>
@@ -589,8 +595,8 @@
 
                 <div class="col-md-6 col-lg-4">
                     <div class="gallery-item shadow">
-                        <img src="{{asset('img/CubiertasyTechos.jpg')}}"
-                            alt="Refuerzo Estructural" class="img-fluid">
+                        <img src="{{ asset('img/CubiertasyTechos.jpg') }}" alt="Refuerzo Estructural"
+                            class="img-fluid">
                         <div class="gallery-overlay">
                             <div class="gallery-content">
                                 <h5>Refuerzos de Acero</h5>
@@ -693,7 +699,7 @@
             <div class="footer-divider mb-3"></div>
 
             <p class="small opacity-75">&copy; 2025 VIS7AR. <br>
-                <span class="text-accent">"Si no deja caja, no es empresa."</span>
+                <span class="text-accent">"Visión que se convierte en estructura."</span>
             </p>
         </div>
     </footer>
